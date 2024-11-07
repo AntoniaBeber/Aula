@@ -1,0 +1,10 @@
+<h1>Teste</h1>
+<button (click)="create()"> Adicionar sla o que</button>
+<ul>
+  <li *ngFor="let user of users | async"> 
+  Nome: {{user.name}} <br>
+  Email: {{user.email}}<br>
+  Gender: {{user.gender}}<br>
+  Status: {{user.status}}<br>
+    </li>
+</ul>
